@@ -22,35 +22,27 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     position: relative;
-    border: 3px solid red;
+    border-bottom: 1px solid var(--red-color);
 }
 
 .header__titre {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    /*margin-bottom: 1.5rem;*/
+    margin-bottom: 1.5rem;
     position: relative;
     padding: 20px;
 }
 
-.header__titre:after {
-    content:"";
-    height: 1px;
-    width: 100%;
-    background-color: var(--red-color);
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    right: 0;
+.header__logo {
+    background-image: url(../images/logo.png);
 }
-
-
 .logo {
     width: 12em; 
     position: relative;
+    
 }
 
 /*****************NAV**********************/
@@ -59,7 +51,7 @@ body {
     font-weight: 500;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin: 20px 0px;
 }
 
 .nav__link {
