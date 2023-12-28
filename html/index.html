@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maxime et Marjorie">
     <meta name="description" content="La blog des Avengers">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="../images/favicon.ico" type="image/icon">
     <script src="https://kit.fontawesome.com/455d0daaed.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -17,113 +17,98 @@
 <body>
 
 <header>
-    <div class="title">
+    <div aria-label="titre-et-logo" class="header">
         <h1 class="header__titre">Les</h1>
-        <img src="../images/logo.png" alt="logo Avengers" class="logo">
+        <img src="../images/logo.png" alt="logo Avengers" class="header__logo">
         <h1 class="header__titre">: héros et protecteurs !</h1>
     </div>
     <nav class="header__nav">
-        <ul class="nav__link">
+        <ul class="header__nav--link">
             <li><a href="#">&#192; propos</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         
-        <ul class="nav__icon">
+        <ul class="header__nav--icon">
             <li><a href="#"><img src="../images/twitter_icon.png" alt="icon twitter" 
-                class="nav__icon__img"></a></li>
+                class="header__nav--icon-img"></a></li>
             <li><a href="#"><img src="../images/facebook_icon.png" alt="icon facebook"
-                class="nav__icon__img"></a></li>
+                class="header__nav--icon-img"></a></li>
         </ul>
     </nav>
-
-
 </header>
+    <section class="section__un">
+        <h2 class="section__un--titre">Les <span class="section__un--titre-avengers">Avengers</span>, 
+            les meilleurs amis des citoyens du monde</h2>
 
-<main>
-
-    <h2 class="main__main_title">Les <span class="main_title__Avengers">Avengers</span>, 
-        les meilleurs amis des citoyens du monde</h2>
-
-    
-        <dfn class="main__title__dfn">Les Avengers sont une équipe de super-héros exceptionnels qui travaillent ensemble pour protéger 
+        <dfn class="section__un--dfn">Les Avengers sont une équipe de super-héros exceptionnels qui travaillent ensemble pour protéger 
         le monde des menaces intérieures et extérieures. Ils sont incroyablement puissants, mais ils ont 
         également un sens de l'humour et une humanité qui les rendent attachants. 
         Lorsque les Avengers sont en action, vous savez que tout va bien se passer !</dfn>
-        
-    <div class="main__title__photo--container">
-        <figure class="container__photo">
-            <img src="../images/iron-man.jpg" alt="photo d'iron man" class="main__title__photo">
-        </figure>
-        <div class="iron-man__title"><p> Le super-héros de la semaine &#9825;</p></div>
-    </div> 
-        
-    
+            
+        <div aria-label="Contenant photo" class="section__un--container">
+            <div aria-label="Photo Iron-Man" class="section__un--container-photo"></div>
+            <div aria-label="titre pour la photo Iron-Man" class="section__un--container-iron-man"><p> Le super-héros de la semaine &#9825;</p></div>
+        </div> 
+    </section>   
 
-
-
-<!-- **************************************************************************** -->
-
-
-</main>
-
-<section class="partie__deux">
-        <article class="partie__deux--article">
-            <div class="container__article">
-                <figure class="container__article__image une">
+<section class="section__deux">
+        <article class="section__deux--article">
+            <div aria-label="Contenant section deux" class="section__deux--article-container">
+                <figure class="section__deux--article-container-img une">
                     <img src="../images/captain-america.jpg" alt="Captain America en action">
                 </figure>
-                <figure class="container__article__image deux">
+                <figure class="section__deux--article-container-img deux">
                     <img src="../images/thor.jpg" alt="Thor en action">
                 </figure>
-                <figure class="container__article__image trois">
+                <figure class="section__deux--article-container-img trois">
                     <img src="../images/hulk.jpg" alt="Hulk en action">
                 </figure>
-                <figure class="container__article__image quatre">
+                <figure class="section__deux--article-container-img quatre">
                     <img src="../images/black-widow.jpg" alt="Black-Window en action">
                 </figure>
-                <figure class="container__article__image cinq">
+                <figure class="section__deux--article-container-img cinq">
                     <img src="../images/hawkeye.jpg" alt="Hawkeye en action">
                 </figure>
-                <figure class="container__article__image six">
+                <figure class="section__deux--article-container-img six">
                     <img src="../images/scarlet-witch.jpg" alt="Scarlet Witch en action">
                 </figure>
-                <figure class="container__article__image sept">
+                <figure class="section__deux--article-container-img sept">
                     <img src="../images/vision.jpg" alt="Vision en action">
                 </figure>
-                <figure class="container__article__image huit">
+                <figure class="section__deux--article-container-img huit">
                     <img src="../images/antman.jpg" alt="Antman en action">
                 </figure>
-                <figure class="container__article__image neuf">
+                <figure class="section__deux--article-container-img neuf">
                     <img src="../images/falcon.jpg" alt="Falcon en action">
                 </figure>
-                <figure class="container__article__image dix">
+                <figure class="section__deux--article-container-img dix">
                     <img src="../images/war-machine.jpg" alt="War Machine en action">
                 </figure>
-                <figure class="container__article__image onze">
+                <figure class="section__deux--article-container-img onze">
                     <img src="../images/spiderman.jpg" alt="Spiderman en action">
                 </figure>
-                <figure class="container__article__image douze">
+                <figure class="section__deux--article-container-img douze">
                     <img src="../images/doctor-strange.jpg" alt="Docteur Strange en action">
                 </figure>
-                <figure class="container__article__image treize">
+                <figure class="section__deux--article-container-img treize">
                     <img src="../images/black-panther.jpg" alt="Black Panther en action">
                 </figure>
-                <figure class="container__article__image quatorze">
+                <figure class="section__deux--article-container-img quatorze">
                     <img src="../images/captain-marvel.jpg" alt="Captain Marvel en action">
                 </figure>
-                <figure class="container__article__image quinze">
+                <figure class="section__deux--article-container-img quinze">
                     <img src="../images/winter-soldier.jpg" alt="Winter Soldier en action">
                 </figure>
-                <figure class="container__article__image seize">
+                <figure class="section__deux--article-container-img seize">
                     <img src="../images/star-lord.jpg" alt="Star Lord en action">
                 </figure>
-                <figure class="container__article__image dixsept">
+                <figure class="section__deux--article-container-img dixsept">
                     <img src="../images/nick-fury.jpg" alt="Nick Fury en action">
                 </figure>
         
                 <aside>
-                    <div class="aside__container">
+                    <div aria-label="contenant Aside" class="aside__container">
                         <h3 class="aside__container--titre">Avengers Rassemblement!</h3>
                         <p class="aside__container--paragraphe">Vous avez des compétences hors du commun et vous souhaitez sauver 
                         le monde aux côtés des plus grands héros de la planète ?</p>
@@ -137,10 +122,6 @@
             </div>
         </article>
     </section>
-
-
-
-
 
 <footer>
     Copyright © 2023 | <i class="fa-solid fa-heart"></i> Avengers
