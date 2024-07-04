@@ -2,6 +2,7 @@
 # Avangers
 
 Avanger est magazin où on peut retrouver les dernières actualités de nos héros préférès.
+Il s'agit 'un projet fait durant la formation Développeur Web et Web Mobile.
 
 # Stack utilisées  
 
